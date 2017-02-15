@@ -1,0 +1,36 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*----------------*/
+
+.result {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.coll {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+}
